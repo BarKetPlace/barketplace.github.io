@@ -1,0 +1,16 @@
+<div class="outermenu">
+  <p class="menu" style="margin-left: -30px;">
+    <span class="separator-for-tight-layout">☰ </span> 
+    <a href="/antoine/index.html">Home</a> <span class="separator-for-tight-layout">&middot;</span>
+    <!--    <a href="publications.html">papers</a>    <span class="separator-for-tight-layout">&middot;</span>--!>
+	    <!--    <a href="materials.html">materials</a>    <span class="separator-for-tight-layout">&middot;</span>--!>
+    <a href="/antoine/cv.pdf">CV</a> <span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/about.html">About</a><span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/blog/index.html">Blog</a><span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/blog/measure_theory.html"> - Measure Theory</a><span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/blog/islamo_gauchisme.html"> - Islamo-gauchisme</a><span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/blog/systems_of_values.html"> - Systems of Value</a><span class="separator-for-tight-layout">&middot;</span> 
+    <a href="/antoine/blog/nationalisme.html"> - Nationalisme</a><span class="separator-for-tight-layout">&middot;</span> 
+  </p>
+</div>
+
