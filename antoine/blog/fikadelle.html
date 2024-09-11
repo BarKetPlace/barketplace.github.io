@@ -16,13 +16,15 @@
   $(function () {
     var includes = $('[data-include]')
     $.each(includes, function () {
-      var file = 'views/' + $(this).data('include') + '.html'
+      var file = '/antoine/blog/' + $(this).data('include') + '.html'
       $(this).load(file)
     })
   })
 </script> 
 </head>
+
 <div data-include="outermenu.html"></div>
+
 <body>
 <header>
 <h1 class="title">Fikadelle</h1>
