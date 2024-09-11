@@ -8,9 +8,22 @@
   <link rel="stylesheet" href="/css/blog.css" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-          onload="renderMathInElement(document.body);"></script>
-</head>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script> 
+      $(function () {
+        var includes = $('[data-include]')
+        $.each(includes, function () {
+          var file = '/antoine/blog/' + $(this).data('include') + '.html'
+          $(this).load(file)
+        })
+      })
+    </script> 
+    </head>
+    
+    <div data-include="outermenu"></div>
+        
 <body>
 <header>
 <h1 class="title">Systems of values</h1>
